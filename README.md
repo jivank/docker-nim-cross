@@ -17,11 +17,13 @@ Look at example directory.
 ## Directories in container
 
 - /usr/local/src/: working dir
-- /usr/bin/x86_64-w64-mingw32-gcc: compiler for Windows
-- /opt/osxcross/target/bin/o64-clang: compiler for MacOS
+- /usr/bin/x86_64-w64-mingw32-gcc: compiler for 64 bit Windows
+- /usr/bin/i686-w64-mingw32-gcc: compiler for 32 bit Windows
+- /opt/osxcross/target/bin/o64-clang: compiler for 64 bit MacOSX
+- /opt/osxcross/target/bin/o32-clang: compiler for 32 bit MacOSX
 - /usr/bin/musl-gcc: compiler for Linux(musl)
 
 ## default command
 
-default command is `make`.
+default command is `bash`.
 
