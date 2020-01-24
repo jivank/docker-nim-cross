@@ -1,4 +1,4 @@
-FROM debian:jessie
+FROM debian:buster
 
 # This is the combination of several projects to provide
 # a Docker image with a recent version of Nim and a 
