@@ -48,8 +48,7 @@ RUN dpkg --add-architecture i386 && \
         texinfo             \
         cmake               \
         wget                \
-        software-properties-common \
-        python-software-properties && \
+        software-properties-common && \
     apt-add-repository "deb http://llvm.org/apt/trusty/ llvm-toolchain-trusty-3.8 main" && \
     apt-get update && \
     apt-get -yy -qq --force-yes install clang-3.8 lldb-3.8 && \
